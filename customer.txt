@@ -1,0 +1,55 @@
+
+
+public class Customer {
+
+	private int CUSTOMERID;
+	private String CUSTOMERNAME   ;
+	private String CUSTOMERCITY  ;
+	private String  CUSTOMERSTATE;
+	private String  CUSTOMEREMAIL;  
+	private long CUSTOMERMOBILE;
+	
+	public int getCUSTOMERID() {
+		return CUSTOMERID;
+	}
+	public void setCUSTOMERID(int cUSTOMERID) {
+		CUSTOMERID = cUSTOMERID;
+	}
+	public String getCUSTOMERNAME() {
+		return CUSTOMERNAME;
+	}
+	public void setCUSTOMERNAME(String cUSTOMERNAME) {
+		CUSTOMERNAME = cUSTOMERNAME;
+	}
+	public String getCUSTOMERCITY() {
+		return CUSTOMERCITY;
+	}
+	public void setCUSTOMERCITY(String cUSTOMERCITY) {
+		CUSTOMERCITY = cUSTOMERCITY;
+	}
+	public String getCUSTOMERSTATE() {
+		return CUSTOMERSTATE;
+	}
+	public void setCUSTOMERSTATE(String cUSTOMERSTATE) {
+		CUSTOMERSTATE = cUSTOMERSTATE;
+	}
+	public String getCUSTOMEREMAIL() {
+		return CUSTOMEREMAIL;
+	}
+	public void setCUSTOMEREMAIL(String cUSTOMEREMAIL) {
+		CUSTOMEREMAIL = cUSTOMEREMAIL;
+	}
+	public long getCUSTOMERMOBILE() {
+		return CUSTOMERMOBILE;
+	}
+	public void setCUSTOMERMOBILE(long cUSTOMERMOBILE) {
+		CUSTOMERMOBILE = cUSTOMERMOBILE;
+	}
+	@Override
+	public String toString() {
+		return "Customer [CUSTOMERID=" + CUSTOMERID + ", CUSTOMERNAME=" + CUSTOMERNAME + ", CUSTOMERCITY="
+				+ CUSTOMERCITY + ", CUSTOMERSTATE=" + CUSTOMERSTATE + ", CUSTOMEREMAIL=" + CUSTOMEREMAIL
+				+ ", CUSTOMERMOBILE=" + CUSTOMERMOBILE + "]";
+	}
+	
+}
